@@ -34,10 +34,10 @@ def send_news_item(chat_id, news_items, topic, index=0, message_id=None):
     item = news_items[index]
     message_text = (
         f"\n"
-        f"[�] <b>Headline:</b> {item['title']}\n\n"
-        f"[�] <b>URL:</b> <a href='{item['url']}'>{item['url']}</a>\n"
+        f" <b>Headline:</b> {item['title']}\n\n"
+        f" <b>URL:</b> <a href='{item['url']}'>{item['url']}</a>\n"
         f"\n"
-        f"[�] <b>Summary:</b> {item['summary']}\n"
+        f" <b>Summary:</b> {item['summary']}\n"
         f"\n"
     )
     
